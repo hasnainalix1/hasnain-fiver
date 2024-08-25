@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+  .one {
+    margin-right: 520px;
+  }
+  .logo {
+    height: 60px;
+  }
+  .two {
+    margin-right: 40px;
+    font-size: 15px;
+  }
+  .p1 {
+    font-weight: 600;
+    display: inline-block;
+  }
+  .p2 {
+    font-weight: 600;
+    margin-left: 25px;
+    display: inline-block;
+    color: rgb(63, 61, 61);
+  }
+  .three {
+    margin-right: 30px;
+  }
+  .global {
+    margin-right: 5px;
+    height: 15px;
+  }
+  .p3 {
+    display: inline-block;
+    color: rgb(63, 61, 61);
+  }
+  .p4 {
+    display: inline-block;
+    color: rgb(63, 61, 61);
+    margin-left: 12px;
+  }
+  .four {
+    margin-right: 20px;
+  }
+  .b1 {
+    color: black;
+    height: 33px;
+    width: 63px;
+    background-color: transparent;
+    border-style: none;
+    font-weight: 600;
+  }
+  .b2 {
+    color: rgb(99, 180, 99);
+    border-color: 1px rgb(99, 180, 99);
+    border-radius: 7px;
+    background-color: transparent;
+    height: 33px;
+    width: 63px;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  .b1:hover {
+    color: rgb(19, 117, 19);
+    font-weight: 600;
+  }
+  .b2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 180, 99);
+    font-weight: 700;
+  }
+    
+  section {
+    padding: 40px;
+  }
+  .bg-img {
+    height: 440px;
+    display: flex;
+    background-image: url(./Capture.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+  }
+  .text-aria {
+    display: flex;
+    padding-left: 0px;
+    width: 1300px;
+    height: 60px;
+    text-align: center;
+    margin-top: 270px;
+    border-radius: 70px;
+    justify-content: center;
+  }
+  .text-aria input{
+    padding: 25px;
+  }
+  .bg-img .text-aria button {
+    float: right;
+    padding: 15px 19px;
+    margin-top: 5px;
+    margin-right: 10px;
+    position: absolute;
+    right: 330px;
+    color: white;
+    background: green;
+    border: none;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
